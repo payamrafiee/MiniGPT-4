@@ -6,7 +6,7 @@ model:
   end_sym: "</s>"
   prompt_path: "prompts/alignment.txt"
   prompt_template: '[INST] {} [/INST] '
-  ckpt: '/path/to/stage1/checkpoint/'
+  ckpt: '/workspace/MiniGPT-4/pretrained_minigpt4_7b_stage1.pth'
 
 
 datasets:
